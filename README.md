@@ -16,3 +16,5 @@ OBJECTS: the entities stored in the Amazon S3 buckets. An object can store virtu
 Metadat is associated with an Amazon S3 object is a set of name/value pairs that describe the object. There are two types of metadata: system metadata and user metadata. System metadata is created and used by S3 itself and it includes things like the date last modified, object size, MD5 digest, and HTTP content-type. User Metadata is optional, and it can only be specified at hte time an object was created. You can use custom metadate to tage your data with attributes that are meaningful to you.
 
 Keys: a unique identfier used with an S3 bucket. A key can be up to 1024 bytes of Unicode UTF-8 characters, includeing embedded slashes, backslashes, dots, and dashes. All keys must be unique within a single bucket, but different buckets can contain objects with the same key. The combination of bucket, key, optional version ID uniquely identifies an Amazon S3.
+
+Object URl: S3 is storage for the internet and evety S3 object can be addressed by a unique URL formed using the web services endpoint, the bucket name, and the object key. 
