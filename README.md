@@ -21,5 +21,9 @@ Object URl: S3 is storage for the internet and evety S3 object can be addressed 
 http://mybucket.s3.amazonaws.com/jack.doc
 "mybucket" is the name of the S3 bucket name and jack doc is the key or filename,. If another object is created, for instace:
 http://mybucket.s3.amazonaws.com/fee/fi/fo/fum/jack.doc
-then the bucket name is still mybucket, but now the key or filename is the string fee/ fi/fo/fum/jack.doc. A key may contain delimeter characters like slashes or backslashes to help you name and logically organize your S3 objects, but no S3 it is simpoly a long key name in a flat namespace. There is no actual 
+then the bucket name is still mybucket, but now the key or filename is the string fee/ fi/fo/fum/jack.doc. A key may contain delimeter characters like slashes or backslashes to help you name and logically organize your S3 objects, but no S3 it is simpoly a long key name in a flat namespace. There is no actual file or folder hierarchy
+
+S3 Operations:
+Create/delete bucket
+
 
