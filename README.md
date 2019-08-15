@@ -27,4 +27,5 @@ S3 Operations:
 Create/delete bucket
 write an object
 Read an object
-
+Delete an object
+List keys in a bucket
