@@ -25,5 +25,5 @@ then the bucket name is still mybucket, but now the key or filename is the strin
 
 S3 Operations:
 Create/delete bucket
-
+write an object
 
