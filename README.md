@@ -18,4 +18,8 @@ Metadat is associated with an Amazon S3 object is a set of name/value pairs that
 Keys: a unique identfier used with an S3 bucket. A key can be up to 1024 bytes of Unicode UTF-8 characters, includeing embedded slashes, backslashes, dots, and dashes. All keys must be unique within a single bucket, but different buckets can contain objects with the same key. The combination of bucket, key, optional version ID uniquely identifies an Amazon S3.
 
 Object URl: S3 is storage for the internet and evety S3 object can be addressed by a unique URL formed using the web services endpoint, the bucket name, and the object key. An example url:
+http://mybucket.s3.amazonaws.com/jack.doc
+"mybucket" is the name of the S3 bucket name and jack doc is the key or filename,. If another object is created, for instace:
+http://mybucket.s3.amazonaws.com/fee/fi/fo/fum/jack.doc
+then the bucket name is still mybucket, but now the key or filename is the string fee/ fi/fo/fum/jack.doc. A key may contain delimeter characters like slashes or backslashes to help you name and logically organize your S3 objects, but no S3 it is simpoly a long key name in a flat namespace. There is no actual 
 
