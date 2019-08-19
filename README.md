@@ -30,4 +30,4 @@ Read an object
 Delete an object
 List keys in a bucket
 REST Interface:Representational State Transfer 
-With the REST Interface 
+With the REST Interface , you use standard HTTP or HTTPS requests to create and delete buckets, list keys, and read and write objects. REST maps standard HTTP "verbs"(HTTP methods) to the familiar CRUD(Create, Read, Update, Delete) operations. Create HTTP PUT (and sometimes POST); read is HTTP GET; delete is HTTP DELETE; and update is HTTP post ( or sometimes PUT)
