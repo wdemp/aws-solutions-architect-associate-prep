@@ -29,3 +29,5 @@ write an object
 Read an object
 Delete an object
 List keys in a bucket
+REST Interface:Representational State Transfer 
+With the REST Interface 
