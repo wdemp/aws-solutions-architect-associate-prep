@@ -1,0 +1,1 @@
+- VPC endpoint is crucial for private connectivity from your VPC to other AWS services. For example, you can create a VPC endpoint and access S3 from EC2 without going to the internet.
