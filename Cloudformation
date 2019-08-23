@@ -1,0 +1,3 @@
+Cloudformation is one of the most popular and widely used IAC from AWS. Essentially you design or download a template (blueprint) that meets your requirements. The template can is broken down into various parts:
+
+-
