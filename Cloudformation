@@ -6,4 +6,4 @@ The "anatomoy of an ec2.yml template is:
 -Mapping:
 -Conditions:
 -Resources: The heart of the template. Without this properly set the entire template won't work.
-Outputs:
+-Outputs:
