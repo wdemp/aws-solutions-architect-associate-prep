@@ -1,3 +1,9 @@
 Cloudformation is one of the most popular and widely used IAC from AWS. Essentially you design or download a template (blueprint) that meets your requirements. The template can is broken down into various parts:
-
--
+Templates are created in two languages. They are JSON and YAML. YAML is the most commonly used due to the fact that it is easier to read and write.
+The "anatomoy of an ec2.yml template is: 
+-Desceription- this literally describes what you want Cloudformation to do.
+-Parameter:
+-Mapping:
+-Conditions:
+-Resources: The heart of the template. Without this properly set the entire template won't work.
+Outputs:
