@@ -4,3 +4,12 @@ A large workload, such as screening ten million compounds against a comomn cance
 The amount of compute you might need changes drastically over time.'Insta
 Amazon EC2 allows you to acquire compute through the launching of launching virtual servers called "Instances" When you launch an instance, you can make use of the compute as you wish, just as you would with an on-premise server. Because you are paying for the computing power of the instance, you are charged per hour while the instance is running.
 When you stop the instance, you are no longer charged. 
+There are two concepts that are key to launching instances on AWS(1) the amount of virtual hardware dedicated to the instance (2) the software loaded on the instance. These two dimensions of new instances are controlled, respectively, byu the instance type and the AMI.
+
+INSTANCE Types: There are 4 types of Instances: Virutal CPUs, Memory, Storage, Newtwork performance.
+
+- Instance families:
+  -C4: Compute Optimized-For workloads requiring significant processing.
+  -r3: Memory optimized- For memory-intensive workloads
+  -i2: Storage optimized- For workloads requiring high amounts of fast SSD storage
+  -g2:GPU-Based instance-intended for graphics and general- purpose GPU  compute workloads
