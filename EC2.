@@ -3,3 +3,4 @@ AWS is the primary web sevice that provides resizable compute capacity in the cl
 A large workload, such as screening ten million compounds against a comomn cancer target, might require a great deal of compute. 
 The amount of compute you might need changes drastically over time.'Insta
 Amazon EC2 allows you to acquire compute through the launching of launching virtual servers called "Instances" When you launch an instance, you can make use of the compute as you wish, just as you would with an on-premise server. Because you are paying for the computing power of the instance, you are charged per hour while the instance is running.
+When you stop the instance, you are no longer charged. 
