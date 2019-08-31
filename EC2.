@@ -1,3 +1,3 @@
 AWS is the primary web sevice that provides resizable compute capacity in the cloud. 
 "Compute" refers to the amount of computational power required to fulfill your workload. If your workload is very small, such as websites that recieves few visitors, then yourt compute needd are very small." (aws solutions arichtect associate textbook)
-A large workload, such as screening ten million 
+A large workload, such as screening ten million compounds against a comomn cancer target, might require a great deal of compute. 
