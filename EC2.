@@ -12,5 +12,6 @@ INSTANCE Types: There are 4 types of Instances: Virutal CPUs, Memory, Storage, N
   -C4: Compute Optimized-For workloads requiring significant processing
   -r3: Memory optimized- For memory-intensive workloads
   -i2: Storage optimized- For workloads requiring high amounts of fast SSD storage
-  -g2:GPU-Based instance-intended for graphics and general- purpose GPU  compute workloads
-Many isntances support "enhanced networking" 
+  -g2:GPU-Based instance-intended for graphics and general- purpose GPU  compute workloadso/O )
+Many isntances support "enhanced networking" Enhanced networking reduces performance, many instance types support work performance  by enabling a capability called Single Root I/O Virtualization (SR-IOV) 
+This results in more PPS (Packets Per Second) 
