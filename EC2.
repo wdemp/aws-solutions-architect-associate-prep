@@ -17,3 +17,12 @@ Many isntances support "enhanced networking" Enhanced networking reduces perform
 This results in more PPS (Packets Per Second), lower latency, and less jitter. 
 The following instance types support enahnced networking: C3,C4, D2, I2, M4, and R3 families. Part of enabling enhanced networking on an instance you need to make sure the correct drivers are installed and modifying an instance attribute. Enhanced networking is availabe only for these instance launched in an Amazon VPC.
 
+The Amazon Machine Image: defines the initial software that will be on an instance when it's launched. An AMI defines every aspect of the software state at instance launch, includings:
+-the OS and its configuration
+-initial stae of any patches
+-Application or system software
+All AMIs are based on x86 OSs, either Linux or Windows.
+
+The 4 Sources of AMI:
+-Published by AWS: AWS publishes AMIs with versions of many different OSs, both Linux and Windows. These include multiple distributions of Linux(including Ubuntu , Red Hat, and Amazon's own distribution), Windows 2008, Windows 2012. 
+Launching an instance baseds on one of those AMIs will result in the default OS settings, similar to installing an OS from the standard OS ISO image As with any OS installation, you should immediately apply all appropriate patches upon launch.
