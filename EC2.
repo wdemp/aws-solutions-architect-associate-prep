@@ -9,7 +9,8 @@ There are two concepts that are key to launching instances on AWS(1) the amount 
 INSTANCE Types: There are 4 types of Instances: Virutal CPUs, Memory, Storage, Newtwork performance.
 
 - Instance families:
-  -C4: Compute Optimized-For workloads requiring significant processing.
+  -C4: Compute Optimized-For workloads requiring significant processing
   -r3: Memory optimized- For memory-intensive workloads
   -i2: Storage optimized- For workloads requiring high amounts of fast SSD storage
   -g2:GPU-Based instance-intended for graphics and general- purpose GPU  compute workloads
+Many isntances support "enhanced networking" 
