@@ -27,3 +27,8 @@ The 4 Sources of AMI:
 -Published by AWS: AWS publishes AMIs with versions of many different OSs, both Linux and Windows. These include multiple distributions of Linux(including Ubuntu , Red Hat, and Amazon's own distribution), Windows 2008, Windows 2012. 
 Launching an instance baseds on one of those AMIs will result in the default OS settings, similar to installing an OS from the standard OS ISO image As with any OS installation, you should immediately apply all appropriate patches upon launch.
 -AWS Marketplace: The Marketplace is an online store that helps customers find, buy, and immediately start using the software and services that run on EC2. 
+
+## Fault Tolerance
+- adding instances in multiple AZs increases fault tolerance
+- Use auto scaling groups to provide fault tolerance
+-
