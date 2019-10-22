@@ -23,9 +23,12 @@ What could be the possible reason behind this?
 
 Real Answer: This is due to the replicate lag.
 
-Whizlabs Reasoning: An AWS Whitepaper on the caveat 
+Whizlabs Reasoning: An AWS Whitepaper on the caveat for reading replicas is given below which must be taken into consideration
+by architects. Read Replicas
 
 
 Answer I chose: The backup of the original database has not been set properly.
  My Reasoning: I clearly didn't read this that well. The words "at certain times, the reports show stale data" was a pretty dead
  giveaway. I need to read more carefully.
+
+
