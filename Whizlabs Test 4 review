@@ -7,9 +7,7 @@ You are hosting a web server on an EC2 Instance. With the number of requests con
 the response performance for the application is getting degraded. Which of the following would help to alleviate the problem 
 and provide a better response time?
 
-Answer: 
-D.
-Place a CloudFront distribution in front of the EC2 Instance.
+Answer: Place a CloudFront distribution in front of the EC2 Instance.
 Answer I chose: Place the EC2 instance behind the App Load balancer.
 Reasoning according to Whizlabs: "Since there is a mention of only one EC2 instance, placing it behind the ELB 
 would not make much sense, hence Options A & B are invalid."
@@ -23,7 +21,11 @@ Question 3: A company is hosting a MySQL database in AWS using the AWS RDS servi
 reports are run off the Read Replica database. But at certain times, the reports show stale data. 
 What could be the possible reason behind this?
 
-Answer: This is due to the replicate lag.
+Real Answer: This is due to the replicate lag.
+
+Whizlabs Reasoning: An AWS 
+
 
 Answer I chose: The backup of the original database has not been set properly.
-Reasoning: 
+ My Reasoning: I clearly didn't read this that well. The words "at certain times, the reports show stale data" was a pretty dead
+ giveaway. I need to read more carefully.
