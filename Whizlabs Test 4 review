@@ -1,0 +1,14 @@
+This is a comprehensive review of the wrong answers that I got on test 4. This review will include the answers, why they're correct
+and what could have been the reason behind them being wrong.
+
+
+
+You are hosting a web server on an EC2 Instance. With the number of requests consuming a large part of the CPU, 
+the response performance for the application is getting degraded. Which of the following would help to alleviate the problem 
+and provide a better response time?
+
+Answer: 
+D.
+Place a CloudFront distribution in front of the EC2 Instance.
+
+Reasoning according to Whizlabs: 
