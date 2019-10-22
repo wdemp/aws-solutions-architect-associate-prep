@@ -41,5 +41,6 @@ My Answer I chose: Versioniong is not enabled for the bucket, so the newer versi
 Reasoning: I asssumed versioning was the answer. The reason being that I saw the word "update" ; since this is S3 
 updating is part of what versioning does. 
 
-Real Answer: 
+Real Answer: Updates made to the object usually take sometime to reflect. 
+Whizlabs 
 
