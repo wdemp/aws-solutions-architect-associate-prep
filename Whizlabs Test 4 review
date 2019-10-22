@@ -10,10 +10,17 @@ and provide a better response time?
 Answer: 
 D.
 Place a CloudFront distribution in front of the EC2 Instance.
-Answer I chose: 
+Answer I chose: Place the EC2 instance behind the App Load balancer.
 Reasoning according to Whizlabs: "Since there is a mention of only one EC2 instance, placing it behind the ELB 
 would not make much sense, hence Options A & B are invalid."
 Having it an autoscaling group with just one instnace would not make much sense
 Cloudfront distribution would help to alleviate the load in the EC2 instance because of its edge location and cache feature
 
 
+
+
+Question 3: A company is hosting a MySQL database in AWS using the AWS RDS service. To offload the reads, a Read Replica has been created and 
+reports are run off the Read Replica database. But at certain times, the reports show stale data. 
+What could be the possible reason behind this?
+
+Answer:
