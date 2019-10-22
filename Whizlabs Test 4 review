@@ -45,4 +45,9 @@ Real Answer: Updates made to the object usually take sometime to reflect.
 Whizlabs Explanation: Updates made to the objects in S3 follow an eventaul consistency model. Hence, for object updates there can
 be a slight delay when an updated object is provided back to the user on the next request.
 
-Question 8: 
+Question 8: A company planning to move to the AWS Cloud wants to leverage its existing Chef recipes for configuration management of its infrastructure. 
+Which AWS service would be ideal to fulfill this requirement?
+
+Answer I chose: AWS Elastic Beanstalk
+Reasoning: 
+
