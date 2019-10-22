@@ -26,11 +26,10 @@ Real Answer: This is due to the replicate lag.
 Whizlabs Reasoning: An AWS Whitepaper on the caveat for reading replicas is given below which must be taken into consideration
 by architects. Read Replicas are seperate database instance that are replicated asychronously. As a result, they are subject to
 replication lag and might be missing sme of the latest transactions. Application architects need to consider which queries
- have the tolerance to slightly state data. These queries
+ have the tolerance to slightly state data. These queries can be executed on a Read Replica, while the rest should run on the
+ primary node. Read Replicas may also not accept any write queries.
 
 
 Answer I chose: The backup of the original database has not been set properly.
  My Reasoning: I clearly didn't read this that well. The words "at certain times, the reports show stale data" was a pretty dead
- giveaway. I need to read more carefully.
-
-
+ giveaway. I need to read more carefully. 
