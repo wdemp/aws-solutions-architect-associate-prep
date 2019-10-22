@@ -37,4 +37,6 @@ Answer I chose: The backup of the original database has not been set properly.
 Question 6: A company has set up its data layer in the Simple Storage Service. There are a number of requests which include read/write and updates to objects in an S3 bucket. 
 Users sometimes complain that updates to an object are not being reflected. What could be the most likely reason for this?
 
-Answer I chose: 
+Answer I chose: Versioniong is not enabled for the bucket, so the newer version does not reflect the right data.
+Reasoning: 
+
