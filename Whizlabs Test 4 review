@@ -57,4 +57,10 @@ and solutions for configuration management, while AWS OpsWorks for Puupet Enterp
 server in AWS Puppet offers a set of tools for enforcing the desired starte of your infrastructure and automating on-demand
 tasks. 
 
-Question 10: 
+Question 10: A company offers its customers short-lived contests that require users to upload files in hopes of winning prizes.
+These contests can last up to two weeks, with unknown uploads and the resulting file analysis can last up to three months. 
+The company currently stores four weeks of data in an S3 bucket and now it needs an economic and scalable object storage solution to hold it's customer files.
+The files will be accessed once and then deleted. What would be the best solution for the company in this scenario?
+
+My Answer: Amazon Standard S3
+Reasoning: 
