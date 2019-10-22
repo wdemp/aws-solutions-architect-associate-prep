@@ -10,5 +10,10 @@ and provide a better response time?
 Answer: 
 D.
 Place a CloudFront distribution in front of the EC2 Instance.
+Answer I chose: 
+Reasoning according to Whizlabs: "Since there is a mention of only one EC2 instance, placing it behind the ELB 
+would not make much sense, hence Options A & B are invalid."
+Having it an autoscaling group with just one instnace would not make much sense
+Cloudfront distribution would help to alleviate the load in the EC2 instance because of its edge location and cache feature
 
-Reasoning according to Whizlabs: 
+
