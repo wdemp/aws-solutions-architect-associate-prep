@@ -24,7 +24,9 @@ What could be the possible reason behind this?
 Real Answer: This is due to the replicate lag.
 
 Whizlabs Reasoning: An AWS Whitepaper on the caveat for reading replicas is given below which must be taken into consideration
-by architects. Read Replicas
+by architects. Read Replicas are seperate database instance that are replicated asychronously. As a result, they are subject to
+replication lag and might be missing sme of the latest transactions. Application architects need to consider which queries
+ have the tolerance to slightly state data. These queries
 
 
 Answer I chose: The backup of the original database has not been set properly.
