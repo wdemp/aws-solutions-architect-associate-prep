@@ -51,3 +51,6 @@ Which AWS service would be ideal to fulfill this requirement?
 Answer I chose: AWS Elastic Beanstalk
 Reasoning: I didn't have enough knowledge about AWS Opworks to figure out that it was the right answer.
 
+Actaul Answer: AWS OpsWorks is a configuration management service that helps you to configure and operate applications in a cloud 
+in a cloud enterprise by using Puppet or Chef. AWs 
+
