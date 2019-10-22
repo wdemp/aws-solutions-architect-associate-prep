@@ -52,5 +52,8 @@ Answer I chose: AWS Elastic Beanstalk
 Reasoning: I didn't have enough knowledge about AWS Opworks to figure out that it was the right answer.
 
 Actaul Answer: AWS OpsWorks is a configuration management service that helps you to configure and operate applications in a cloud 
-in a cloud enterprise by using Puppet or Chef. AWs 
+in a cloud enterprise by using Puppet or Chef. AWS OpsWorks Stacks and AWS OpsWorks for Chef Automate let you use Chef cookbooks 
+and solutions for configuration management, while AWS OpsWorks for Puupet Enterprise lets you configure a Puppet Enterprise master 
+server in AWS Puppet offers a set of tools for enforcing the desired starte of your infrastructure and automating on-demand
+tasks. 
 
