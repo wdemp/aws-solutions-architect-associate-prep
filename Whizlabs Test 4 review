@@ -23,7 +23,7 @@ What could be the possible reason behind this?
 
 Real Answer: This is due to the replicate lag.
 
-Whizlabs Reasoning: An AWS 
+Whizlabs Reasoning: An AWS Whitepaper on the caveat 
 
 
 Answer I chose: The backup of the original database has not been set properly.
