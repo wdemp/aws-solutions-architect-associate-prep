@@ -38,5 +38,5 @@ Question 6: A company has set up its data layer in the Simple Storage Service. T
 Users sometimes complain that updates to an object are not being reflected. What could be the most likely reason for this?
 
 Answer I chose: Versioniong is not enabled for the bucket, so the newer version does not reflect the right data.
-Reasoning: 
+Reasoning: I asssumed versioning was the answer for a few reasons. 
 
