@@ -33,3 +33,6 @@ replication lag and might be missing sme of the latest transactions. Application
 Answer I chose: The backup of the original database has not been set properly.
  My Reasoning: I clearly didn't read this that well. The words "at certain times, the reports show stale data" was a pretty dead
  giveaway. I need to read more carefully. 
+
+Question 4:  A company plan to use SQS queues and AWS Lambda to leverage the serverless aspects of the AWS Cloud. 
+Each invocation to AWS Lambda will send a message to an SQS queue. What should be done to achieve this? 
