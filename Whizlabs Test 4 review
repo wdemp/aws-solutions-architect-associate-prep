@@ -3,7 +3,7 @@ and what could have been the reason behind them being wrong.
 
 
 
-You are hosting a web server on an EC2 Instance. With the number of requests consuming a large part of the CPU, 
+Question 1: You are hosting a web server on an EC2 Instance. With the number of requests consuming a large part of the CPU, 
 the response performance for the application is getting degraded. Which of the following would help to alleviate the problem 
 and provide a better response time?
 
