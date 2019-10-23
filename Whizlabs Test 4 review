@@ -73,5 +73,4 @@ Question 11: Question 11: You plan on hosting a web application consisting of a 
 These servers are going to be hosted on different EC2 Instances in different subnets in a VPC. What should be used to ensure that the database server only allows 
 traffic from the web server?
 My Answer: Make use of VPC flow logs.
-
-Real Answer: 
+Reasoning: I thought that the Security groups had more control over more of the subnets security.
