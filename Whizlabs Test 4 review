@@ -85,7 +85,8 @@ Question 14: A company has a Redshift Cluster defined in AWS. The IT Operations 
 automated and manual snapshots are in place. Since the cluster is going to be run for a long duration of a couple of years, 
 Reserved Instances have been purchased. There has been a recent concern on the cost, being incurred by the cluster.
 Which step should be carried out to minimize the costs being incurred by the cluster?
-My Answer: Delete the manual snapshots
-Reasoning: I don't have a good answer here, I clearly didn't read this thoroughly. As I re-read it again, there was no real reason
-to select my answer. There's nothing there.
+My Answer: Choose to use Spot Instances instead of Reserved Instances
+Reasoning: The question mentioned Spot and reserved Instances. In addition 
 
+Whizlabs answer: Delete the manual snapshots
+Explanation: Rgar
