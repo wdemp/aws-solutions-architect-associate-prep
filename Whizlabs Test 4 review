@@ -68,3 +68,8 @@ In this case, giving less would have been a better option. The Infrequent Access
 Real Answer: S3 Infrequent Access.
 Whizlabs Reasoning: Given the scenario, this data is going to be accessed a lot less; however when it needs to be accessed it needs 
 to be quick.
+
+Question 11: Question 11: You plan on hosting a web application consisting of a web server and a database server.
+These servers are going to be hosted on different EC2 Instances in different subnets in a VPC. What should be used to ensure that the database server only allows 
+traffic from the web server?
+My Answer: Make use of VPC flow logs.
