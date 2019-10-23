@@ -118,3 +118,10 @@ Question 16: A company currently hosts a lot of data on its On-premises location
 It wants to start storing backups of this data on AWS. How could this be achieved in the most efficient way?
 
 My answer: Create EBS Snapshots and store the data
+
+Reasoning: I was thinking at the time that the Snapshots would be the best way to transfer the data to the new databse. 
+However, upon reading this now the people in the scenario would have had to have had an AWS account prior. They wouldn't
+have been able to use AWS EBS Snapshots. The Storage Gaetway Stored Volumes is designed for integration with data security
+features between yout on-premise IT environment and the AWS storage infrastructure. 
+Actual Answer: Make 
+
