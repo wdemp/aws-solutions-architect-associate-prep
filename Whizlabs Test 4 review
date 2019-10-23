@@ -89,7 +89,10 @@ My Answer: Choose to use Spot Instances instead of Reserved Instances
 Reasoning: The question mentioned Spot and reserved Instances. In addition the question also mentioned that there was a cost 
 concern. So since Spot Instance are cheaper I went with that. On top of that being wrong, teh question also states that 
 the Instances need to be run for a couple of years. Reserved Instances are LITERALLY intended to run for a specific amount of
-years. 
+years. This is all stated in the contract prior to purchasing them.
 
 Whizlabs answer: Delete the manual snapshots
-Explanation: Rgar
+Explanation: Whether they are automated or manually taken, Snapshots can be deleted or created at any time. Manual snapshots
+are keot indefintely, even after you delete the cluster. You can specify the retention period when you create a manual snapshot
+or you can change the retention period when you create a manual snapshot or you can change the retention period by modifying 
+the snapshot. 
