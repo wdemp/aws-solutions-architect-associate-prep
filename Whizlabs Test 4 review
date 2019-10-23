@@ -95,6 +95,6 @@ Whizlabs answer: Delete the manual snapshots
 Explanation: Whether they are automated or manually taken, Snapshots can be deleted or created at any time. Manual snapshots
 are keot indefintely, even after you delete the cluster. You can specify the retention period when you create a manual snapshot
 or you can change the retention period when you create a manual snapshot or you can change the retention period by modifying 
-the snapshot. If you create a snapshot using the Amazon Redshift console. It defaults the snapshot retention period to 365 days.
-Automated snapshots are automatically deleted within the period of at least 1 to 35 days. So if you want the Manual snapshots to be 
-deleted you have to 
+the snapshot. If you create a snapshot using the Amazon Redshift console, it defaults the snapshot retention period to 365 days.
+Automated snapshots are automatically deleted within the period of at least 1 to 35 days(this is settings based) So if you want the Manual snapshots to be 
+deleted you have to do it yourself.
