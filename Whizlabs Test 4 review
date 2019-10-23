@@ -88,7 +88,7 @@ Which step should be carried out to minimize the costs being incurred by the clu
 My Answer: Choose to use Spot Instances instead of Reserved Instances
 Reasoning: The question mentioned Spot and reserved Instances. In addition the question also mentioned that there was a cost 
 concern. So since Spot Instance are cheaper I went with that. On top of that being wrong, teh question also states that 
-the Instances need to be run for a couple of years. Reserved Instances are LITERALLY went to run for a specific amount of
+the Instances need to be run for a couple of years. Reserved Instances are LITERALLY intended to run for a specific amount of
 years. 
 
 Whizlabs answer: Delete the manual snapshots
