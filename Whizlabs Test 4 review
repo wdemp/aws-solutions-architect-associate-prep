@@ -103,4 +103,6 @@ Question 15: A website is hosted on two EC2 instances that sit behind an Elastic
 dramatically, and customers are placing fewer orders due to the wait time. Troubleshooting showed that one of the EC2 instances has been failed and only one instance is running now.
 What is the best course of action to prevent this from happening in the future?
 My Answer: Change the instance size to the maximum available tio compensate for the failure
-Reasoning:  I didn't fully grasp the question at the time. As I read it now, there were plenty of clues as to what 
+Reasoning:  I didn't fully grasp the question at the time. As I read it now, there were plenty of clues as to what the question
+was asking. Due to the instance failing and the website lagging. Clearly a healh check needs to be performed; in addition
+
