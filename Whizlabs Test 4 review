@@ -76,3 +76,6 @@ My Answer: Make use of VPC flow logs.
 Reasoning: I thought that the Security groups had more control over more of the subnets security. This was clearly wrong and bad 
 to out down. I need more work with security groups.
 
+Whizlabs answer: Security groups can be used to control traffic into an EC2 instance.
+**Interesting Note from Whizlabs: NACL is used when you want to deny the access for a particular IP address or the CIDR block
+
