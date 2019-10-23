@@ -81,3 +81,7 @@ Whizlabs answer: Security groups can be used to control traffic into an EC2 inst
 So, the main point here is that if the requirement allows traffic, then you can go wtih the Security group. If the requirement 
 mentioned that is~ is denies traffic than you go with NACL.
 
+Question 14: A company has a Redshift Cluster defined in AWS. The IT Operations team have ensured that both 
+automated and manual snapshots are in place. Since the cluster is going to be run for a long duration of a couple of years, 
+Reserved Instances have been purchased. There has been a recent concern on the cost, being incurred by the cluster.
+Which step should be carried out to minimize the costs being incurred by the cluster?
