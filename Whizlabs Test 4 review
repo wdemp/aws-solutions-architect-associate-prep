@@ -86,7 +86,10 @@ automated and manual snapshots are in place. Since the cluster is going to be ru
 Reserved Instances have been purchased. There has been a recent concern on the cost, being incurred by the cluster.
 Which step should be carried out to minimize the costs being incurred by the cluster?
 My Answer: Choose to use Spot Instances instead of Reserved Instances
-Reasoning: The question mentioned Spot and reserved Instances. In addition 
+Reasoning: The question mentioned Spot and reserved Instances. In addition the question also mentioned that there was a cost 
+concern. So since Spot Instance are cheaper I went with that. On top of that being wrong, teh question also states that 
+the Instances need to be run for a couple of years. Reserved Instances are LITERALLY went to run for a specific amount of
+years. 
 
 Whizlabs answer: Delete the manual snapshots
 Explanation: Rgar
