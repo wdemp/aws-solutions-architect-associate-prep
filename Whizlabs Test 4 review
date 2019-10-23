@@ -98,3 +98,9 @@ or you can change the retention period when you create a manual snapshot or you 
 the snapshot. If you create a snapshot using the Amazon Redshift console, it defaults the snapshot retention period to 365 days.
 Automated snapshots are automatically deleted within the period of at least 1 to 35 days(this is settings based) So if you want the Manual snapshots to be 
 deleted you have to do it yourself.
+
+Question 15: A website is hosted on two EC2 instances that sit behind an Elastic Load Balancer. The response time of the website has been slowed down 
+dramatically, and customers are placing fewer orders due to the wait time. Troubleshooting showed that one of the EC2 instances has been failed and only one instance is running now.
+What is the best course of action to prevent this from happening in the future?
+My Answer: Change the instance size to the maximum available tio compensate for the failure
+Reasoning:  I didn't fully grasp the question at the time. As I read it now, there were plenty of clues as to what 
