@@ -140,5 +140,6 @@ Question 18: Currently, you have a set of Lambda functions which have business l
 You want customers to have the ability to call these functions via HTTPS. 
 How could this be achieved?
 My Answer: Add EC2 Instances with an API server installed. Integrate the server with AWS Lambada functions.
-Reasoning: 
+Reasoning: I really didn't understand the question at the time
+
 
