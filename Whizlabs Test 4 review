@@ -141,5 +141,6 @@ You want customers to have the ability to call these functions via HTTPS.
 How could this be achieved?
 My Answer: Add EC2 Instances with an API server installed. Integrate the server with AWS Lambada functions.
 Reasoning: I really didn't understand the question at the time
-Real Answer: 
+Real Answer: Use API Gateway and provide integration with the AWS Lambda functions.
+Whizlabs Explanation: 
 
