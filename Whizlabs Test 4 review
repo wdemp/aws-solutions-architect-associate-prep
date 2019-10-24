@@ -126,5 +126,7 @@ features between yout on-premise IT environment and the AWS storage infrastructu
 Actual Answer: Make use of Storage Gateway Stored Volumes.
 Whizlabs Explanation: AWS Storage Gateway connects to an on-premises software appliance with cloud based storage
 to provide seasmles integration with data security features between your on-premises IT environment and the AWS
-storage infrastructure. You can use the service tio store data in the AWS Cloud for scalable 
+storage infrastructure. You can use the service tio store data in the AWS Cloud for scalable and cost effective that helps
+to maintain data security. 
+It has 2 types of configuration 
 
