@@ -128,5 +128,6 @@ Whizlabs Explanation: AWS Storage Gateway connects to an on-premises software ap
 to provide seasmles integration with data security features between your on-premises IT environment and the AWS
 storage infrastructure. You can use the service tio store data in the AWS Cloud for scalable and cost effective that helps
 to maintain data security. 
-It has 2 types of configuration 
+It has 2 types of configuration, cached volumes, and stored volumes.
+
 
