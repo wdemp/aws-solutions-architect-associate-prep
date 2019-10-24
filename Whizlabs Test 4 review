@@ -145,4 +145,9 @@ Real Answer: Use API Gateway and provide integration with the AWS Lambda functio
 Whizlabs Explanation: An API gateway provides the ideal access to your back end services via APIs.
 AWS Document notes about API Gateways: API Gateways is an AWS service for creating, publishing, maintaing, monitoring,
 and securing REST and Websocket APIs at any scale. 
+API Gatewat Creates REST APIs that:
+-Are HTTp-based
+-Adhere to the REST protocol, which enables stateless client-server communication
+-Implement standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE
+
 
