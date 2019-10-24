@@ -150,4 +150,9 @@ API Gatewat Creates REST APIs that:
 -Adhere to the REST protocol, which enables stateless client-server communication
 -Implement standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE
 
+Quesion 24: A small company started using EBS backed EC2 instances for the cost improvements over their own running servers.
+The company’s policy is to stop the development servers over weekend and restart them next week.
+First time when the servers were brought back, none of the developers were able to SSH into them. What did the server most likely overlook?
+
+
 
