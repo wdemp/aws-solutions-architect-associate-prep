@@ -136,6 +136,9 @@ not storing the backups on S3 but the actual primary data itself.
 But in stored mode, your primary data is stored locally and and your entire dataset is available for low latency access while
 access while asychronously backed up to AWS S3.
 
-
+Question 18: Currently, you have a set of Lambda functions which have business logic embedded in them. 
+You want customers to have the ability to call these functions via HTTPS. 
+How could this be achieved?
+My Answer: Add EC2 Instances with an API server installed. Integrate the server with AWS Lambada functions.
 
 
