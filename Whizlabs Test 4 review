@@ -143,5 +143,6 @@ My Answer: Add EC2 Instances with an API server installed. Integrate the server 
 Reasoning: I really didn't understand the question at the time
 Real Answer: Use API Gateway and provide integration with the AWS Lambda functions.
 Whizlabs Explanation: An API gateway provides the ideal access to your back end services via APIs.
-AWS Document notes about API Gateways: 
+AWS Document notes about API Gateways: API Gateways is an AWS service for creating, publishing, maintaing, monitoring,
+and securing REST and Websocket APIs at any scale. 
 
