@@ -133,6 +133,6 @@ It has 2 types of configuration, cached volumes, and stored volumes.
 Our requirement is to start storing backups of the on-premise data to AWS.
 In cached volumes, you store you data in S3 and retain a copy of frequently accessed data subsets locally. It means that we are
 not storing the backups on S3 but the actual primary data itself.
-
+But in stored mode, your primary data is stored locally and your 
 
 
