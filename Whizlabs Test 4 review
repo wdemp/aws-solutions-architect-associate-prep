@@ -130,4 +130,5 @@ storage infrastructure. You can use the service tio store data in the AWS Cloud 
 to maintain data security. 
 It has 2 types of configuration, cached volumes, and stored volumes.
 
+In cached volumes is to start storing backups of the on-premise data to AWS.
 
