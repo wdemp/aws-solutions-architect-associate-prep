@@ -156,5 +156,5 @@ First time when the servers were brought back, none of the developers were able 
 My answer: The Security group for a stopped instance needs to be reassigned after the start.
 Reasoning: Due to my experience with security groups and using SSH. I figured this was an issue with the instance 
 being restarted. This was clearly wrong.
-Actual Answer: The Public 
+Actual Answer: The Public IPV4 address
 
