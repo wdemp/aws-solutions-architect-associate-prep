@@ -26,4 +26,4 @@ IAM Manages:
  - DENY always overrides any ALLOW
  
  For all users(except the root user), permissions must grant access to AWS services ( this is done through IAM policies)
- - IAM provides 
+ - IAM provides ID services - but also coordinates with STS(Security Token Services) allow ID Federation (the use of external IDS)
