@@ -34,4 +34,5 @@ Best Practices:
 - create and use amn IAM user with Admininstrative Priviledges instead of the Root Account
 - Create individual IAM users
 - Use groups to assign permissions
--
+- Follow the "Principle of Least Priviledge"
+
