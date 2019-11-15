@@ -11,4 +11,10 @@ Features:
 - Granular permissions
 - ID Federation (Linkedin, Facebook, Active Directory, etc)
 - MFA
+- Provide temporary access for users/devices and services where made necessary
+- Allows you set up your own password rotation policy
+
+IAM Manages:
+
+-users
 -
