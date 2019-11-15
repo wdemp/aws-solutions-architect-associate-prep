@@ -13,12 +13,14 @@ Features:
 - MFA
 - Provide temporary access for users/devices and services where made necessary
 - Allows you set up your own password rotation policy
+- Integrates with many other AWS services 
+- Compliant with PCI DSS Compliance
 
 IAM Manages:
 
--users
--Groups
--Roles
+-users-end users such as people, employees, of an organization
+-Groups-A collection of users, Each user in the group will inherit
+-Roles- You can create 
 -Policies
  By default any user you create in an AWS account has NO permisisons and policies attached.
  
