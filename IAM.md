@@ -8,4 +8,5 @@ Features:
 
 - centralized control of your AWS account
 - shared access to your AWS account
--F
+- Granular permissions
+- ID Federation (Linkedin, Facebook, 
