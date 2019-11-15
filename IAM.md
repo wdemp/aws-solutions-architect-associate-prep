@@ -31,4 +31,7 @@ IAM Manages:
 Best Practices:
 - Delete your root access keys
 - Activate MFA on your root account
-- create and use amn IAM user with Admininstrative Priviledges 
+- create and use amn IAM user with Admininstrative Priviledges instead of the Root Account
+- Create individual IAM users
+- Use groups to assign permissions
+-
