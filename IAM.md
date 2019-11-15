@@ -27,3 +27,8 @@ IAM Manages:
  
  For all users(except the root user), permissions must grant access to AWS services ( this is done through IAM policies)
  - IAM provides ID services - but also coordinates with STS(Security Token Services) allow ID Federation (the use of external IDS)
+
+Best Practices:
+- Delete your root access keys
+- Activate MFA on your root account
+- 
