@@ -22,4 +22,7 @@ IAM Manages:
 -Policies
  By default any user you create in an AWS account has NO permisisons and policies attached.
  
- - All permissions 
+ - All permission policies have an "implicit deny" - no allows= Implicit Deny
+ -DENY always overrides any ALLOW
+ 
+ 
