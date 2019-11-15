@@ -17,4 +17,9 @@ Features:
 IAM Manages:
 
 -users
--
+-Groups
+-Roles
+-Policies
+ By default any user you create in an AWS account has NO permisisons and policies attached.
+ 
+ - All permissions 
