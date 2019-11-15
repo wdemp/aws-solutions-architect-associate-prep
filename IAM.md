@@ -35,4 +35,4 @@ Best Practices:
 - Create individual IAM users
 - Use groups to assign permissions
 - Follow the "Principle of Least Priviledge"
-
+- Apply an IAM password policy
