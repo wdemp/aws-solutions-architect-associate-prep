@@ -9,4 +9,6 @@ Features:
 - centralized control of your AWS account
 - shared access to your AWS account
 - Granular permissions
-- ID Federation (Linkedin, Facebook, 
+- ID Federation (Linkedin, Facebook, Active Directory, etc)
+- MFA
+-
