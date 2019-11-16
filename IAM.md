@@ -20,8 +20,8 @@ IAM Manages:
 
 -users-end users such as people, employees, of an organization
 -Groups-A collection of users, Each user in the group will inherit
--Roles- You can create 
--Policies
+-Roles- You can create roles and then assign them to AWS resources
+-Policies- Policies are made up of documents. These documents are in a format called "JSON" and they give permissions as to what a user/group/ Role is able to do.
  By default any user you create in an AWS account has NO permisisons and policies attached.
  
  - All permission policies have an "implicit deny" - no allows= Implicit Deny
