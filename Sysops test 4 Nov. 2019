@@ -1,2 +1,6 @@
 A company has a set of files in a S3 bucket. They are worried about all the attacks that happen across the internet. They are 
-especially 
+especially where data is stolen and subject to ransomware. What can protect the files in the bucket?
+
+A: Enabing versioning in the S3 bucket.
+
+
