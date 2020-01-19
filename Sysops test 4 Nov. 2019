@@ -4,4 +4,13 @@ especially where data is stolen and subject to ransomware. What can protect the 
 A: Enabing versioning in the S3 bucket.
 
 A company has a set of files in an S3 bucket. Recently some employees inadvertently deleted some files from the bucekt. The CIO 
-has now been informed 
+has now informed you that all measures have been taken to ensure that the objects int the bucket are protected from such sort 
+of incident in the future? How can this be accomplished?
+
+A: Enable MFA delete by using root credentials and by using the AWS CLI
+
+Reasoning: "You can add anoher layer of protection by enabling MFA DELETE on versioned bucket. Once you do so , you must provide
+your AWS account access keys and a valid code from the account's MFA device in order to permanently delete an object version or 
+suspend or reactivate versioning on the bucekt.
+
+
