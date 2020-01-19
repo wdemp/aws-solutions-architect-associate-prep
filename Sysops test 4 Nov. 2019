@@ -14,3 +14,6 @@ your AWS account access keys and a valid code from the account's MFA device in o
 suspend or reactivate versioning on the bucekt.
 
 
+AS a SysopsAdministrator, you are uploading form your data center on to AWS Glacier. The total amount of data in yout data
+
+
