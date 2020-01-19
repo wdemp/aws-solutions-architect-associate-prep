@@ -15,6 +15,11 @@ suspend or reactivate versioning on the bucekt.
 
 
 As a SysopsAdministrator, you are uploading form your data center on to AWS Glacier. The total amount of data in yout data
-center is 70 TB. But when you upload, files them are not the same as those that have uploaded it.
+center is 70 TB. But when you upload, files them are not the same as those that have uploaded it. For exmaple, you upload
+a file demo.txt and then in Glacier you can the see archive ID as:
+34y57yt473fh8bi73h7fhewihsdjhkfgeiufherygfhlsiufgeriuyhkb
+What can be done to ensure tha you can have all the same file in Glacier ensuring the minimalist impact to cost? Choose 2 answer?
+
+(1) Use the AWS Snowball to upload the flies to S3 and then move it to Glacier storage for 
 
 
